@@ -1,0 +1,45 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">The publishing process</h1>
+      <p>Once your request is received by Keith or Tom you'll get a response. The response may: 
+
+      	<ul class="list list-bullet">
+      		<li>ask you for more information, either by email or in a face to face meeting</li>
+      		<li>agree your request</li>
+      		<li>reject your request, and give you a reason</li>
+      	</ul>
+      <p>If you don't agree with a rejection then contact Keith or Tom directly, or if you want to escalate it, Ben Holliday, head of user experience.</p>
+      <h2 class="heading-medium">If your request is agreed</h2>
+      <p>A request ticket will be raised with GDS.</p>
+      <p>GDS will put the ticket into their backlog. If the request isn't complicated (eg a factual change to an existing page) it will be actioned within 7 days.</p>
+      <p>If the request involves creating a new page or content on GOV.UK you may be asked to join a call for further discussion. The work will then be prioritised by GDS against requests from the whole of government. The process may take several weeks to complete.</p>
+      <p>GDS will draft the content to meet the GOV.UK style guide and send the draft page to check for factual accuracy.</p>
+      <p>You'll be sent a link to a draft of the content by Keith or Tom.</p>
+      <p>You should review the content and respond to Keith or Tom with either:</p>
+      	<ul class="list list-bullet">
+      		<li>confirmation the content is factually accurate</li>
+      		<li>comments on where the content is inaccurate and why</li>
+      	</ul>
+      	<p>You shouldn't comment on the words used or presentation according to your personal reference. All content will be written to meet the style guide.</p>
+      	<p>If corrections are required, changes will be made by GDS and another fact check request will be sent.</p>
+      	<p>Once GDS has a positive fact check response they will publish the change to GOV.UK.</p>
+
+	{% include "includes/otherLinks.html" %}
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+

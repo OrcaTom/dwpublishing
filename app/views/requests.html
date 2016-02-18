@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block page_title %}
+  GOV.UK prototype kit
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">DWP content on GOV.UK</h1>
+      <p>Make a request to change content on GOV.UK if you've:</p>
+      <ul class="list list-bullet">
+      	<li>seen something that's factually wrong</li>
+      	<li>evidence that the user experience isn't satisfactory, eg direct user feedback</li>
+      	<li>found a genuine user need for content that isn't already on GOV.UK and the user need is in the proposition</li>
+      </ul>
+      <p>Don't make a GOV.UK content request if you:</p>
+      <ul class="list list-bullet">
+      	<li>don't agree with the way something is written</li>
+      	<li>think content should be moved on GOV.UK</li>
+      	<li>are repeating content that can be found elsewhere on the internet</li>
+      	<li>want to put up information that's only for people working in DWP</li>
+      	<li>are doing so for business reasons at the expense of the user experience</li>
+      </ul>
+      <p>It will be rejected by GDS.</p>
+      <h2 class="heading-medium">How to make a request</h2>
+      <p>If you think your request meets the above criteria email Keith Prust or, if the content is to do with a digital service, Tom Adams.</p>
+      	<p>Explain the user need you've identified and give any evidence or data you have that users are looking for or need the change.</p>
+      	<p>Don't include suggestions for how the content should be written or 'mock-ups' of pages. These won't be passed to GOV.UK and so are a waste of time to produce.</p> 
+ 
+	{% include "includes/otherLinks.html" %}
+
+    </div>
+  </div>
+</main>
+
+{% endblock %}
+
+
